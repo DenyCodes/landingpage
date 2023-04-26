@@ -3,6 +3,10 @@ body {
 }
 .navbar {
     background-color: #130f40;
+    /* margin-top: 2; */
+}
+.colored{
+    color: #c92909;
 }
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
@@ -21,7 +25,8 @@ body {
     background-color: #c92909;
 }
 .section-title {
-    font-family: pacifico, cursive;
+    font-family: roboto, sans-serif;
+    /* font-family: pacifico, cursive; */
 }
 
 #sobre-o-restaurante, #cardapio {
