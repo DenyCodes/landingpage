@@ -6,9 +6,17 @@ body {
     font-weight: bolder;
     /* margin-top: 2; */
 }
+
 .sobrenos {
     color: white;
     font-weight: bolder;
+}
+#note {
+    align-items: center;
+}
+
+#sobrenos {
+    background-color: #000000;
 }
 .colored{
     color: #ffffff;
@@ -30,8 +38,12 @@ body {
     background-color: #ffffff;
 }
 .section-title {
+    color: #ffffff;
     font-family: roboto, sans-serif;
     /* font-family: pacifico, cursive; */
+}
+.section-title, h2{
+    color: black;
 }
 
 #sobre-o-restaurante, #cardapio {
