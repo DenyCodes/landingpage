@@ -43,10 +43,13 @@ body {
     font-family: roboto, sans-serif;
     /* font-family: pacifico, cursive; */
 }
-.section-title, h2{
-    color: black;
+#sobrenos, .section-title, h2{
+    color: rgb(255, 255, 255);
 }
 
+#note, .section-title, h2 {
+    color: black;
+}
 #sobre-o-restaurante, #cardapio {
     background-color:#757677 ;
 }
