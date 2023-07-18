@@ -81,9 +81,19 @@ body {
     list-style: none;
     display: inline;
 }
+#quem-somos {
+    background-color: black;
+}
 .social-links a {
     text-decoration: none;
 }
+footer {
+    list-style: none;
+    padding-top: 10px;
+    background-color: #000000;
+    color: white;
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 150px;
