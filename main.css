@@ -2,11 +2,16 @@ body {
     font-family: roboto, sans-serif;
 }
 .navbar {
-    background-color: #130f40;
+    background-color: #000000;
+    font-weight: bolder;
     /* margin-top: 2; */
 }
+.sobrenos {
+    color: white;
+    font-weight: bolder;
+}
 .colored{
-    color: #c92909;
+    color: #ffffff;
 }
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
@@ -22,7 +27,7 @@ body {
     margin-left: 33%;
 }
 .navbar-toggler {
-    background-color: #c92909;
+    background-color: #ffffff;
 }
 .section-title {
     font-family: roboto, sans-serif;
@@ -30,28 +35,31 @@ body {
 }
 
 #sobre-o-restaurante, #cardapio {
-    background-color:#dcdde1 ;
+    background-color:#757677 ;
 }
 
 .text-colored {
-    color: #9340ff;
+    color: #ffffff;
     /* margin-right: 3.0em; */
 }
 .text-colored2 {
-    color: goldenrod;
+    color: rgb(0, 0, 0);
 }
 .text-colored3 {
-    color: #9340ff;
+    color: #ffffff;
 }
 .nav-cardapio .nav-link,
 #fale-conosco button {
     background-color: #ffffff;
-    color: #9340ff;
+    color: #000000;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: black;
 }
 
 .nav-cardapio .nav-link:hover {
     color: #fff;
-    background-color: #4048af;
+    background-color: #000000;
 }
 .social-links li {
     list-style: none;
