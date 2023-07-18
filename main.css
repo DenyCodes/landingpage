@@ -11,6 +11,14 @@ body {
     color: white;
     font-weight: bolder;
 }
+#painel {
+    color: black;
+    padding: 20px;
+    background-color: white;
+}
+#painel-txt {
+    color: black;
+}
 #note {
     align-items: center;
 }
@@ -43,13 +51,19 @@ body {
     font-family: roboto, sans-serif;
     /* font-family: pacifico, cursive; */
 }
+.section-title h2 {
+    color: black;
+}
 #sobrenos, .section-title, h2{
+    color: rgb(0, 0, 0);
+}
+#quem-somos h2 {
+    color: white;
+}
+#note .section-title h2 {
     color: rgb(255, 255, 255);
 }
 
-#note, .section-title, h2 {
-    color: black;
-}
 #sobre-o-restaurante, #cardapio {
     background-color:#757677 ;
 }
@@ -70,12 +84,13 @@ body {
     color: #000000;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: black;
+    background-color: white;
+    color: black;
 }
 
 .nav-cardapio .nav-link:hover {
     color: #fff;
-    background-color: #000000;
+    background-color: #313131;
 }
 .social-links li {
     list-style: none;
@@ -87,6 +102,10 @@ body {
 }
 .social-links a {
     text-decoration: none;
+}
+#text-form {
+    color: black;
+
 }
 footer {
     list-style: none;
