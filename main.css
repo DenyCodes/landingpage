@@ -97,6 +97,7 @@ body {
     display: inline;
 }
 #quem-somos {
+    background-image: url(./images/fundo.jpeg);
     color: white;
     background-color: black;
 }
