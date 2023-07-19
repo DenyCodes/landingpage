@@ -1,12 +1,15 @@
 body {
-    font-family: roboto, sans-serif, Garet;
+    font-family: Roboto, sans-serif;
 }
 .navbar {
     background-color: #000000;
     font-weight: bolder;
     /* margin-top: 2; */
 }
-
+#faleconosco{
+    margin-left: 20px;
+    background-color: #25d366;
+}
 .sobrenos {
     color: white;
 }
