@@ -115,6 +115,7 @@ body {
     list-style: none;
     display: inline;
 }
+
 #quem-somos {
     background-image: url(./images/fundo.jpeg);
     color: white;
@@ -133,8 +134,19 @@ footer {
     background-color: #000000;
     color: white;
 }
+/* mobile: */
 
 @media (max-width: 767px) {
+    #lista1 {
+        overflow-x: auto;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #listimg {
+        width: 40%;
+    }
     .carousel-item img {
         height: 250px;
     }
