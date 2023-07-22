@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junior Tec - Assistencia Tecnica</title>
 
+    <link rel="stylesheet" href="slick.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="main.css">
 
 </head>
@@ -98,53 +100,25 @@
                 </div>
             </div>
         </section>
-        <section id="eventos" class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center fw-bold">Assistencia para smartphones</h2>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-3">
-                        <img src="./images/conserto-de-celular-iphone-apple.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored2 fs-4">
-                            <span class="fw-bold">Para Iphones</span>
-                        </h3>
-                        <p>
-                            Assistencia completa para todos os modelos iphone
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/conserto-de-celular-samsung.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored2 fs-4">
-                            <span class="fw-bold">Para Samsung</span>
-                        </h3>
-                        <p>
-                            Assistencia completa para todos os modelos sansung
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/conserto-de-celular-motorola.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored2 fs-4">
-                            <span class="fw-bold">Para Motorola</span>
-                        </h3>
-                        <p>
-                            Assistencia completa para todos os modelos motorola
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/conserto-de-celular-asus.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored2 fs-4">
-                            <span class="fw-bold">Para Asus</span>
-                        </h3>
-                        <p>
-                            Assistencia completa para todos os modelos asus
-                        </p>
-                    </div>
-                </div>
+        <container class="container" id="container">
+            <section class="material">
+                <h2 class="section-title text-center fw-bold">Assistencia para smartphones</h2>
+            <div class="carousel-1">
+                <img src="images/conserto-de-celular-asus.jpg" alt="">
+                <img src="images/conserto-de-celular-iphone-apple.jpg" alt="">
+                <img src="images/conserto-de-celular-motorola.jpg" alt="">
+                <img src="images/conserto-de-celular-samsung.jpg" alt="">
+                <img src="images/conserto-de-celular-iphone-apple.jpg" alt="">
             </div>
-            <hr>
+            <h2 class="section-title text-center fw-bold">Assistencia para smartphones</h2>
+            </section>
+        </container>
+        <hr>
+        <section id="eventos" class="pt-2 pb-5">
+            <div class="container" id="container-carousel">
+            </div>
             <div class="container" id="note">
-                <div class="row pt-5">
+                <div class="row">
                     <h2 class="section-title text-center fw-bold">Assistencia para Computadores e notebooks</h2>
                 </div>
                 <div class="row mt-3 pt-4">
@@ -188,7 +162,6 @@
                 </div>
             </div>
         </section>
-        <hr>
         <section id="quem-somos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
@@ -208,7 +181,7 @@
                             <div class="tab-pane active" id="hades">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100 rounded" src="./images/reviva seu pc(1).png" alt="Ártemis" />
+                                        <img class="d-block w-100 rounded" src="./images/images/reviva seu pc.png" alt="Ártemis" />
                                         <h5 class="text-colored fw-bold mt-2" id="painel-txt">Denis Oliveira</h5>
                                         <p>
                                             DESENVOLVEDOR Front End
@@ -364,6 +337,7 @@
     </a>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/jquery.mask.js"></script>
     <script src="./js/jquery.validate.js"></script>
@@ -371,5 +345,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/pagina/main.js"></script>
     <script src="/pagina/js/jquery.mask.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#carousel-imagens').slick({
+            autoplay:true,
+        });
+
+        $('.carousel-1').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false
+        });
+    })
+    </script>
+
 </body>
 </html>

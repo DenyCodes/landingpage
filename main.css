@@ -10,8 +10,16 @@ body {
     margin-left: 20px;
     background-color: #25d366;
 }
+
 .sobrenos {
     color: white;
+}
+.material {
+    background-image: url(./images/fundo.jpeg);
+    background-color: black;
+}
+.material h2 {
+    color: rgba(255, 255, 255, 0.966);
 }
 #painel {
     color: black;
@@ -43,6 +51,14 @@ body {
 .nav-cardapio .nav-link.active:hover{
     color: #fff;
 }
+.container-carousel {
+    width: 50%;
+}
+#conteudo {
+    width: 50%;
+    display: flex;
+}
+
 .col-md-4 {
     margin-left: 33%;
 }
