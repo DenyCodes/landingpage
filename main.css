@@ -195,6 +195,10 @@ footer {
 /* mobile: */
 
 @media (max-width: 767px) {
+    #lista22 .textolimp {
+        font-size: 10px;
+        /* width: 70px; */
+    }
     body {
         overflow-x: auto;
     }
