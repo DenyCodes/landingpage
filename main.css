@@ -159,6 +159,13 @@ body {
     background-color: black;
     color: white;
 }
+.textolimp a {
+    text-decoration: none;
+    color: inherit;
+    /* text-transform: none; */
+    /* color: #fff; */
+}
+
 #lista1 {
     width: 1200px;
     max-width: 108%;
