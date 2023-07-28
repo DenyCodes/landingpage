@@ -191,10 +191,55 @@ footer {
     /* background-size: cover; */
     /* background-image: url(images/fundo2.jpg); */
 }
-
+.mapa-1 {
+    /* background-color: black; */
+    /* max-width: 100%; */
+    /* width: 200px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 2px; */
+    /* resize: vertical; */
+    /* position: absolute; */
+}
+.texto {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mapa {
+    background-image: url(./images/fundo2.jpg);
+    background-size: cover;
+}
+#titulo {
+    width: 110%;
+    color: black;
+    background-size: cover;
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+}
+#caixa-titulo {
+    background-image: url(images/fundo.jpeg);
+    color: black;
+    background-color: black;
+    /* margin: 200px; */
+}
+.mapa-texto {
+    color: #fff;
+    padding-top: 40px;
+}
 /* mobile: */
 
 @media (max-width: 767px) {
+    #mapa-0 {
+        /* width: 10px; */
+    }
     #lista22 .textolimp {
         font-size: 10px;
         /* width: 70px; */
